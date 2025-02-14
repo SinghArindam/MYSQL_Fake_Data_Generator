@@ -1,0 +1,45 @@
+-- INNER JOIN
+SELECT s.staff_id, s.staff_name, s.department, p.payment_id, p.amount, p.made_by
+FROM staff s
+INNER JOIN payment p ON s.made_by = p.made_by;
+
+-- LEFT JOIN (LEFT OUTER JOIN)
+SELECT s.student_id, s.student_name, b.booking_id, b.booking_date 
+FROM student s
+LEFT JOIN booking b ON s.made_by = b.made_by;
+
+-- RIGHT JOIN (RIGHT OUTER JOIN)
+SELECT c.brand_name, c.space_name, s.staff_id, s.staff_name 
+FROM coworking_space c
+RIGHT JOIN staff s ON c.made_by = s.made_by;
+
+-- FULL JOIN (FULL OUTER JOIN)
+SELECT p.payment_id, p.amount, b.booking_id, b.booking_date
+FROM payment p
+FULL OUTER JOIN booking b ON p.made_by = b.made_by;
+
+-- Note: FULL OUTER JOIN is not supported in MySQL, but you can achieve the same result using a UNION:
+SELECT p.payment_id, p.amount, b.booking_id, b.booking_date
+FROM payment p
+LEFT JOIN booking b ON p.made_by = b.made_by
+UNION
+SELECT p.payment_id, p.amount, b.booking_id, b.booking_date
+FROM payment p
+RIGHT JOIN booking b ON p.made_by = b.made_by;
+
+-- CROSS JOIN
+SELECT s.staff_name, r.room_no, r.capacity 
+FROM staff s
+CROSS JOIN study_room r;
+
+-- SELF JOIN
+SELECT s1.staff_id AS Staff1_ID, s1.staff_name AS Staff1_Name, 
+       s2.staff_id AS Staff2_ID, s2.staff_name AS Staff2_Name
+FROM staff s1
+INNER JOIN staff s2 ON s1.department = s2.department 
+AND s1.staff_id <> s2.staff_id;
+
+-- NATURAL JOIN
+SELECT * 
+FROM staff 
+NATURAL JOIN payment;
