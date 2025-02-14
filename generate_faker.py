@@ -3,6 +3,7 @@ import csv
 import random
 from faker import Faker
 from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
 # Initialize Faker instance
 fake = Faker()
@@ -18,12 +19,12 @@ num_records = 100
 staff_data = [['staff_id', 'staff_name', 'salary', 'department', 'made_by']]
 departments = ['Administration', 'IT', 'Marketing', 'HR', 'Finance']
 for i in range(1, num_records + 1):
-    staff_data.append([i, fake.name(), round(random.uniform(30000, 80000), 2), random.choice(departments), 'Arindam_Singh_2K22_EC_049'])
+    staff_data.append([i, fake.name(), round(random.uniform(30000, 80000), 2), random.choice(departments), os.getenv("DB_MADE_BY")])
 
 # Generate study room data
 study_room_data = [['room_no', 'capacity', 'hourly_rate', 'made_by']]
 for i in range(1, num_records + 1):
-    study_room_data.append([i, random.randint(2, 10), round(random.uniform(15, 50), 2), 'Arindam_Singh_2K22_EC_049'])
+    study_room_data.append([i, random.randint(2, 10), round(random.uniform(15, 50), 2), os.getenv("DB_MADE_BY")])
 
 # Generate booking data
 booking_data = [['booking_id', 'booking_date', 'booking_time', 'booking_discount', 'made_by']]
@@ -31,25 +32,25 @@ for i in range(1, num_records + 1):
     random_date = fake.date_between(start_date='-1y', end_date='today')
     random_time = fake.time()
     discount = random.choice([0, 5, 10, 15])
-    booking_data.append([i, random_date, random_time, discount, 'Arindam_Singh_2K22_EC_049'])
+    booking_data.append([i, random_date, random_time, discount, os.getenv("DB_MADE_BY")])
 
 # Generate payment data
 payment_data = [['payment_id', 'payment_mode', 'amount', 'made_by']]
 payment_modes = ['Credit Card', 'Debit Card', 'Paypal', 'UPI', 'Bank Transfer']
 for i in range(1, num_records + 1):
-    payment_data.append([i, random.choice(payment_modes), round(random.uniform(50, 500), 2), 'Arindam_Singh_2K22_EC_049'])
+    payment_data.append([i, random.choice(payment_modes), round(random.uniform(50, 500), 2), os.getenv("DB_MADE_BY")])
 
 # Generate student data
 student_data = [['student_id', 'student_name','contact_no', 'university', 'made_by']]
 universities = ['University A', 'University B', 'University C', 'University D']
 for i in range(1, num_records + 1):
-    student_data.append([i, fake.name(),fake.phone_number(), random.choice(universities), 'Arindam_Singh_2K22_EC_049'])
+    student_data.append([i, fake.name(),fake.phone_number(), random.choice(universities), os.getenv("DB_MADE_BY")])
 
 # Generate coworking space data
 coworking_space_data = [['brand_name', 'space_name', 'made_by']]
 brands = ['EduSpace', 'LearnHub', 'StudyNest', 'Knowledge Point']
 for i in range(1, num_records + 1):
-    coworking_space_data.append([random.choice(brands), f"Campus {i}", 'Arindam_Singh_2K22_EC_049'])
+    coworking_space_data.append([random.choice(brands), f"Campus {i}", os.getenv("DB_MADE_BY")])
 
 # Mapping of file names to data
 files_data = {
