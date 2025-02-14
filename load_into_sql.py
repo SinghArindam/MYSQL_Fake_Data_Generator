@@ -161,7 +161,6 @@ for csv_file, info in csv_to_table.items():
             values = []
             for col in columns:
                 value = row[col]
-
                 # Convert phone numbers to numeric only if it's the `contact_no` column
                 if table_name == "student" and col == "contact_no":
                     value = clean_phone_number(value)
