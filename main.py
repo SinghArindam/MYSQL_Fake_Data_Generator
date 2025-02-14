@@ -13,9 +13,9 @@ def run_py(file):
     if not file.endswith('.py'):
         file += '.py'
     if os.path.exists(file):
-        print(f"-Running {file}...")
+        print(f"--Running {file}...")
         subprocess.run([sys.executable, file])
-        print(f"-Successfully Run {file}.")
+        print(f"--Successfully Run {file}.")
     else:
         print(f"Error: {file} not found!")
 

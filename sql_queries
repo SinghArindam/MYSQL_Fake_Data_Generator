@@ -1,0 +1,40 @@
+DROP DATABASE student_coworking_db;
+
+SHOW DATABASES;
+use student_coworking_db;
+
+-- Insert a new student
+INSERT INTO student (student_id, contact_no, university) 
+VALUES (101, 9876543210, 'University X');
+
+
+-- Insert a new staff member
+INSERT INTO staff (staff_id, salary, department) 
+VALUES (201, 50000, 'IT');
+
+
+
+--READ
+SELECT * FROM student;
+SELECT * FROM staff WHERE department = 'IT';
+SELECT * FROM student WHERE student_id = 101;
+
+
+
+-- Update a student's contact number
+UPDATE student 
+SET contact_no = 9123456789 
+WHERE student_id = 101;
+
+-- Increase salary of all staff in IT department by 10%
+UPDATE staff 
+SET salary = salary * 1.1 
+WHERE department = 'IT';
+
+
+-- Delete a student
+DELETE FROM student WHERE student_id = 101;
+
+-- Delete all staff in the HR department
+DELETE FROM staff WHERE department = 'HR';
+
