@@ -29,12 +29,12 @@ cursor.close()
 conn.close()
 
 # MySQL connection configuration (now including the database)
-db_config = {
-    'user': 'root',
-    'password': 'root',
-    'host': 'localhost',
+db_config= {
+    'user': os.getenv("DB_USER"),
+    'password': os.getenv("DB_PASSWORD"),
+    'host': os.getenv("DB_HOST"),
     'database': database_name,
-    'auth_plugin': 'caching_sha2_password'
+    'auth_plugin': os.getenv("DB_AUTH_PLUGIN"),  # Ensure MySQL uses caching_sha2_password
 }
 
 # Connect again using the newly created database
@@ -47,14 +47,17 @@ create_table_queries = {
         CREATE TABLE IF NOT EXISTS staff (
             staff_id INT PRIMARY KEY,
             salary DECIMAL(10,2),
-            department VARCHAR(50)
+            staff_name VARCHAR(50),
+            department VARCHAR(50),
+            made_by VARCHAR(50)
         );
     """,
     'study_room': """
         CREATE TABLE IF NOT EXISTS study_room (
             room_no INT PRIMARY KEY,
             capacity INT,
-            hourly_rate DECIMAL(10,2)
+            hourly_rate DECIMAL(10,2),
+            made_by VARCHAR(50)
         );
     """,
     'booking': """
@@ -62,28 +65,33 @@ create_table_queries = {
             booking_id INT PRIMARY KEY,
             booking_date DATE,
             booking_time TIME,
-            booking_discount DECIMAL(10,2)
+            booking_discount DECIMAL(10,2),
+            made_by VARCHAR(50)
         );
     """,
     'payment': """
         CREATE TABLE IF NOT EXISTS payment (
             payment_id INT PRIMARY KEY,
             payment_mode VARCHAR(50),
-            amount DECIMAL(10,2)
+            amount DECIMAL(10,2),
+            made_by VARCHAR(50)
         );
     """,
     'student': """
         CREATE TABLE IF NOT EXISTS student (
             student_id INT PRIMARY KEY,
+            student_name VARCHAR(50),
             contact_no VARCHAR(20),
-            university VARCHAR(100)
+            university VARCHAR(100),
+            made_by VARCHAR(50)
         );
     """,
     'coworking_space': """
         CREATE TABLE IF NOT EXISTS coworking_space (
             brand_name VARCHAR(100),
             space_name VARCHAR(100),
-            PRIMARY KEY (brand_name, space_name)
+            PRIMARY KEY (brand_name, space_name),
+            made_by VARCHAR(50)
         );
     """
 }
@@ -96,27 +104,27 @@ for table, query in create_table_queries.items():
 csv_to_table = {
     'staff.csv': {
         'table': 'staff',
-        'columns': ['staff_id', 'salary', 'department']
+        'columns': ['staff_id', 'staff_name', 'salary', 'department', 'made_by']
     },
     'study_room.csv': {
         'table': 'study_room',
-        'columns': ['room_no', 'capacity', 'hourly_rate']
+        'columns': ['room_no', 'capacity', 'hourly_rate', 'made_by']
     },
     'booking.csv': {
         'table': 'booking',
-        'columns': ['booking_id', 'booking_date', 'booking_time', 'booking_discount']
+        'columns': ['booking_id', 'booking_date', 'booking_time', 'booking_discount', 'made_by']
     },
     'payment.csv': {
         'table': 'payment',
-        'columns': ['payment_id', 'payment_mode', 'amount']
+        'columns': ['payment_id', 'payment_mode', 'amount', 'made_by']
     },
     'student.csv': {
         'table': 'student',
-        'columns': ['student_id', 'contact_no', 'university']
+        'columns': ['student_id', 'student_name', 'contact_no', 'university', 'made_by']
     },
     'coworking_space.csv': {
         'table': 'coworking_space',
-        'columns': ['brand_name', 'space_name']
+        'columns': ['brand_name', 'space_name', 'made_by']
     },
 }
 

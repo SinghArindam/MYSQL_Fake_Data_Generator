@@ -1,0 +1,101 @@
+staff_id,staff_name,salary,department,made_by
+1,William Hunt,43974.28,HR,Arindam_Singh_2K22_EC_049
+2,Luis Moreno,31876.61,Finance,Arindam_Singh_2K22_EC_049
+3,Claire Nguyen PhD,41383.66,Marketing,Arindam_Singh_2K22_EC_049
+4,Kimberly Griffin,76781.91,HR,Arindam_Singh_2K22_EC_049
+5,Ashley Miles,34826.69,HR,Arindam_Singh_2K22_EC_049
+6,Daniel Garcia MD,65325.9,IT,Arindam_Singh_2K22_EC_049
+7,Edward Melton,52888.01,Administration,Arindam_Singh_2K22_EC_049
+8,Beth Fox,35964.49,Marketing,Arindam_Singh_2K22_EC_049
+9,Jeremy Barnes,75185.66,Administration,Arindam_Singh_2K22_EC_049
+10,Charles Collier,46956.54,Finance,Arindam_Singh_2K22_EC_049
+11,Rachel Richmond,79617.47,Administration,Arindam_Singh_2K22_EC_049
+12,Marisa Hayes,75979.08,Administration,Arindam_Singh_2K22_EC_049
+13,William Glenn,47278.74,Finance,Arindam_Singh_2K22_EC_049
+14,Brian Hines,36847.79,HR,Arindam_Singh_2K22_EC_049
+15,Danielle Russell,71484.93,Administration,Arindam_Singh_2K22_EC_049
+16,Kristi Wilson,45950.09,HR,Arindam_Singh_2K22_EC_049
+17,Gabriel Edwards,47977.38,IT,Arindam_Singh_2K22_EC_049
+18,Barbara Moore,71909.52,Marketing,Arindam_Singh_2K22_EC_049
+19,Sean Walker,78984.08,Finance,Arindam_Singh_2K22_EC_049
+20,Jessica Ho,41506.47,IT,Arindam_Singh_2K22_EC_049
+21,Jack Cuevas,36699.74,HR,Arindam_Singh_2K22_EC_049
+22,Darren Young,79202.48,HR,Arindam_Singh_2K22_EC_049
+23,Todd Ford,64696.05,Finance,Arindam_Singh_2K22_EC_049
+24,Russell Macdonald,46358.53,IT,Arindam_Singh_2K22_EC_049
+25,Tanner Bridges,77932.82,HR,Arindam_Singh_2K22_EC_049
+26,Alexis Anderson,30622.35,Finance,Arindam_Singh_2K22_EC_049
+27,Amanda Diaz,39652.62,Administration,Arindam_Singh_2K22_EC_049
+28,Matthew Santiago,67789.58,IT,Arindam_Singh_2K22_EC_049
+29,Donna Thomas,58520.74,Marketing,Arindam_Singh_2K22_EC_049
+30,Michael Munoz,35945.5,Finance,Arindam_Singh_2K22_EC_049
+31,John Cooper,39449.14,Finance,Arindam_Singh_2K22_EC_049
+32,Jacob Gordon,43522.36,IT,Arindam_Singh_2K22_EC_049
+33,Jonathan Wiley,79669.15,Administration,Arindam_Singh_2K22_EC_049
+34,Jacqueline Washington,66834.94,HR,Arindam_Singh_2K22_EC_049
+35,Jasmin Phillips,62158.01,Marketing,Arindam_Singh_2K22_EC_049
+36,Heather Soto,71251.67,HR,Arindam_Singh_2K22_EC_049
+37,Monica Sanders,45941.79,HR,Arindam_Singh_2K22_EC_049
+38,Tracy Richardson,78670.97,Finance,Arindam_Singh_2K22_EC_049
+39,Charles Thompson,44899.67,Marketing,Arindam_Singh_2K22_EC_049
+40,James York,57043.6,Marketing,Arindam_Singh_2K22_EC_049
+41,Ashley Johnson,49988.41,Administration,Arindam_Singh_2K22_EC_049
+42,Dawn Farmer,53830.57,HR,Arindam_Singh_2K22_EC_049
+43,Jenna Lopez,41918.41,HR,Arindam_Singh_2K22_EC_049
+44,Michelle Krueger,57454.65,HR,Arindam_Singh_2K22_EC_049
+45,Krista Franklin,69589.35,IT,Arindam_Singh_2K22_EC_049
+46,Johnny Farrell DDS,31783.88,Finance,Arindam_Singh_2K22_EC_049
+47,Kristin Wade,57840.37,HR,Arindam_Singh_2K22_EC_049
+48,Brian Scott,47492.78,Finance,Arindam_Singh_2K22_EC_049
+49,Brittany Garcia,61300.05,Marketing,Arindam_Singh_2K22_EC_049
+50,Victoria Rogers,41561.33,Finance,Arindam_Singh_2K22_EC_049
+51,Thomas Rogers,66336.58,Marketing,Arindam_Singh_2K22_EC_049
+52,Brooke Stewart,49655.1,HR,Arindam_Singh_2K22_EC_049
+53,Candace White,37364.0,IT,Arindam_Singh_2K22_EC_049
+54,Gary Burns,40234.63,Finance,Arindam_Singh_2K22_EC_049
+55,Carlos Williams,44632.07,HR,Arindam_Singh_2K22_EC_049
+56,Veronica Thomas,66764.11,Marketing,Arindam_Singh_2K22_EC_049
+57,Rita Woods,75825.11,Finance,Arindam_Singh_2K22_EC_049
+58,Brandon Peters,58623.78,Administration,Arindam_Singh_2K22_EC_049
+59,Meredith Willis,76539.35,Marketing,Arindam_Singh_2K22_EC_049
+60,Christopher Juarez,39564.07,Marketing,Arindam_Singh_2K22_EC_049
+61,Scott Hebert,52736.02,Marketing,Arindam_Singh_2K22_EC_049
+62,Craig Duffy,51268.8,Marketing,Arindam_Singh_2K22_EC_049
+63,Morgan Rosario,50010.6,IT,Arindam_Singh_2K22_EC_049
+64,Eduardo Chavez,51856.13,Administration,Arindam_Singh_2K22_EC_049
+65,Jamie Garza,36235.18,HR,Arindam_Singh_2K22_EC_049
+66,Samantha Carpenter,66724.46,IT,Arindam_Singh_2K22_EC_049
+67,Amber Holt,42720.15,Finance,Arindam_Singh_2K22_EC_049
+68,Kathleen Hicks,49826.91,HR,Arindam_Singh_2K22_EC_049
+69,Matthew Schultz,79890.54,IT,Arindam_Singh_2K22_EC_049
+70,David Burke,54317.3,IT,Arindam_Singh_2K22_EC_049
+71,Mr. Brandon Thompson DDS,57206.59,Marketing,Arindam_Singh_2K22_EC_049
+72,Lindsey Butler,31738.03,Administration,Arindam_Singh_2K22_EC_049
+73,Jeremy Waters,66799.58,Marketing,Arindam_Singh_2K22_EC_049
+74,Regina Howard,36643.41,Administration,Arindam_Singh_2K22_EC_049
+75,Wanda Hill,30326.4,IT,Arindam_Singh_2K22_EC_049
+76,Anthony Wilson,77241.17,Marketing,Arindam_Singh_2K22_EC_049
+77,David Gonzalez DVM,46545.55,IT,Arindam_Singh_2K22_EC_049
+78,Kathy Gonzales,60023.39,Administration,Arindam_Singh_2K22_EC_049
+79,Melissa Smith,34278.55,IT,Arindam_Singh_2K22_EC_049
+80,Connie Jones,55322.11,Finance,Arindam_Singh_2K22_EC_049
+81,Janice Gibson,51375.35,Marketing,Arindam_Singh_2K22_EC_049
+82,Adam Adams,36547.74,Administration,Arindam_Singh_2K22_EC_049
+83,Mary Brooks,42974.1,Administration,Arindam_Singh_2K22_EC_049
+84,Richard Huffman,32359.28,Marketing,Arindam_Singh_2K22_EC_049
+85,Kelly Gray,32243.8,IT,Arindam_Singh_2K22_EC_049
+86,Heather Casey,63125.67,HR,Arindam_Singh_2K22_EC_049
+87,Allison Quinn,69874.21,HR,Arindam_Singh_2K22_EC_049
+88,Jordan Barrett,48730.73,Marketing,Arindam_Singh_2K22_EC_049
+89,Teresa Barr,56842.78,Finance,Arindam_Singh_2K22_EC_049
+90,Nicole Nelson,35245.25,Marketing,Arindam_Singh_2K22_EC_049
+91,Ronald Boyle,67208.07,HR,Arindam_Singh_2K22_EC_049
+92,Christopher Schwartz,75939.53,Marketing,Arindam_Singh_2K22_EC_049
+93,Taylor Moore,61209.74,Administration,Arindam_Singh_2K22_EC_049
+94,Edwin Brooks,71184.79,Finance,Arindam_Singh_2K22_EC_049
+95,Lindsey Armstrong,68436.04,Finance,Arindam_Singh_2K22_EC_049
+96,Adrian Armstrong DDS,79286.22,Marketing,Arindam_Singh_2K22_EC_049
+97,Mrs. Heidi Kent,53191.72,Administration,Arindam_Singh_2K22_EC_049
+98,Dr. Christopher Holmes,63639.47,Marketing,Arindam_Singh_2K22_EC_049
+99,Michelle Foster,65879.44,IT,Arindam_Singh_2K22_EC_049
+100,Laura Garrett,72433.91,Administration,Arindam_Singh_2K22_EC_049

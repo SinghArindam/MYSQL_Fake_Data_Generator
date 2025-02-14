@@ -13,8 +13,9 @@ def run_py(file):
     if not file.endswith('.py'):
         file += '.py'
     if os.path.exists(file):
-        print(f"Running {file}...")
+        print(f"-Running {file}...")
         subprocess.run([sys.executable, file])
+        print(f"-Successfully Run {file}.")
     else:
         print(f"Error: {file} not found!")
 
@@ -26,3 +27,4 @@ if __name__ == "__main__":
     print("Package Installation complete.")
     run_py("generate_faker")
     run_py("load_into_sql")
+    print("---DONE---")

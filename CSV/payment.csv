@@ -1,0 +1,101 @@
+payment_id,payment_mode,amount,made_by
+1,Bank Transfer,158.5,Arindam_Singh_2K22_EC_049
+2,Bank Transfer,107.48,Arindam_Singh_2K22_EC_049
+3,Credit Card,419.15,Arindam_Singh_2K22_EC_049
+4,Bank Transfer,305.17,Arindam_Singh_2K22_EC_049
+5,Bank Transfer,175.34,Arindam_Singh_2K22_EC_049
+6,Debit Card,311.58,Arindam_Singh_2K22_EC_049
+7,Credit Card,405.75,Arindam_Singh_2K22_EC_049
+8,UPI,141.66,Arindam_Singh_2K22_EC_049
+9,Debit Card,210.78,Arindam_Singh_2K22_EC_049
+10,Paypal,485.31,Arindam_Singh_2K22_EC_049
+11,Debit Card,95.65,Arindam_Singh_2K22_EC_049
+12,UPI,236.05,Arindam_Singh_2K22_EC_049
+13,Credit Card,469.86,Arindam_Singh_2K22_EC_049
+14,UPI,176.75,Arindam_Singh_2K22_EC_049
+15,Credit Card,476.09,Arindam_Singh_2K22_EC_049
+16,Bank Transfer,172.21,Arindam_Singh_2K22_EC_049
+17,Bank Transfer,334.63,Arindam_Singh_2K22_EC_049
+18,Bank Transfer,480.47,Arindam_Singh_2K22_EC_049
+19,Paypal,230.92,Arindam_Singh_2K22_EC_049
+20,UPI,296.33,Arindam_Singh_2K22_EC_049
+21,UPI,428.59,Arindam_Singh_2K22_EC_049
+22,UPI,492.36,Arindam_Singh_2K22_EC_049
+23,Paypal,239.54,Arindam_Singh_2K22_EC_049
+24,UPI,176.86,Arindam_Singh_2K22_EC_049
+25,UPI,223.47,Arindam_Singh_2K22_EC_049
+26,UPI,313.76,Arindam_Singh_2K22_EC_049
+27,Credit Card,78.13,Arindam_Singh_2K22_EC_049
+28,UPI,474.43,Arindam_Singh_2K22_EC_049
+29,Bank Transfer,436.44,Arindam_Singh_2K22_EC_049
+30,Debit Card,319.2,Arindam_Singh_2K22_EC_049
+31,Debit Card,268.23,Arindam_Singh_2K22_EC_049
+32,Bank Transfer,87.56,Arindam_Singh_2K22_EC_049
+33,Credit Card,296.99,Arindam_Singh_2K22_EC_049
+34,Debit Card,468.12,Arindam_Singh_2K22_EC_049
+35,Paypal,110.2,Arindam_Singh_2K22_EC_049
+36,UPI,65.47,Arindam_Singh_2K22_EC_049
+37,UPI,227.68,Arindam_Singh_2K22_EC_049
+38,UPI,152.57,Arindam_Singh_2K22_EC_049
+39,Credit Card,483.75,Arindam_Singh_2K22_EC_049
+40,Debit Card,132.72,Arindam_Singh_2K22_EC_049
+41,Bank Transfer,264.94,Arindam_Singh_2K22_EC_049
+42,Paypal,108.98,Arindam_Singh_2K22_EC_049
+43,Paypal,254.42,Arindam_Singh_2K22_EC_049
+44,Debit Card,356.72,Arindam_Singh_2K22_EC_049
+45,UPI,347.56,Arindam_Singh_2K22_EC_049
+46,Credit Card,337.25,Arindam_Singh_2K22_EC_049
+47,Paypal,362.47,Arindam_Singh_2K22_EC_049
+48,Credit Card,296.4,Arindam_Singh_2K22_EC_049
+49,Debit Card,454.3,Arindam_Singh_2K22_EC_049
+50,Paypal,140.92,Arindam_Singh_2K22_EC_049
+51,Bank Transfer,114.06,Arindam_Singh_2K22_EC_049
+52,Paypal,121.64,Arindam_Singh_2K22_EC_049
+53,Paypal,431.89,Arindam_Singh_2K22_EC_049
+54,Credit Card,434.11,Arindam_Singh_2K22_EC_049
+55,Bank Transfer,188.22,Arindam_Singh_2K22_EC_049
+56,Bank Transfer,306.98,Arindam_Singh_2K22_EC_049
+57,Bank Transfer,401.81,Arindam_Singh_2K22_EC_049
+58,UPI,150.15,Arindam_Singh_2K22_EC_049
+59,Paypal,60.62,Arindam_Singh_2K22_EC_049
+60,Bank Transfer,413.35,Arindam_Singh_2K22_EC_049
+61,Bank Transfer,464.41,Arindam_Singh_2K22_EC_049
+62,UPI,100.4,Arindam_Singh_2K22_EC_049
+63,Paypal,198.92,Arindam_Singh_2K22_EC_049
+64,UPI,164.73,Arindam_Singh_2K22_EC_049
+65,Bank Transfer,468.87,Arindam_Singh_2K22_EC_049
+66,Bank Transfer,355.56,Arindam_Singh_2K22_EC_049
+67,Debit Card,395.36,Arindam_Singh_2K22_EC_049
+68,Debit Card,158.09,Arindam_Singh_2K22_EC_049
+69,Credit Card,218.17,Arindam_Singh_2K22_EC_049
+70,Debit Card,131.59,Arindam_Singh_2K22_EC_049
+71,Paypal,454.5,Arindam_Singh_2K22_EC_049
+72,Bank Transfer,74.39,Arindam_Singh_2K22_EC_049
+73,Credit Card,489.49,Arindam_Singh_2K22_EC_049
+74,Credit Card,462.35,Arindam_Singh_2K22_EC_049
+75,Debit Card,247.07,Arindam_Singh_2K22_EC_049
+76,Paypal,223.49,Arindam_Singh_2K22_EC_049
+77,Credit Card,87.37,Arindam_Singh_2K22_EC_049
+78,Credit Card,434.5,Arindam_Singh_2K22_EC_049
+79,UPI,478.12,Arindam_Singh_2K22_EC_049
+80,Bank Transfer,383.52,Arindam_Singh_2K22_EC_049
+81,Debit Card,489.72,Arindam_Singh_2K22_EC_049
+82,UPI,395.52,Arindam_Singh_2K22_EC_049
+83,Debit Card,66.99,Arindam_Singh_2K22_EC_049
+84,Bank Transfer,139.86,Arindam_Singh_2K22_EC_049
+85,Credit Card,238.47,Arindam_Singh_2K22_EC_049
+86,Paypal,409.64,Arindam_Singh_2K22_EC_049
+87,UPI,362.32,Arindam_Singh_2K22_EC_049
+88,Bank Transfer,145.73,Arindam_Singh_2K22_EC_049
+89,Debit Card,396.98,Arindam_Singh_2K22_EC_049
+90,Bank Transfer,318.7,Arindam_Singh_2K22_EC_049
+91,Credit Card,51.79,Arindam_Singh_2K22_EC_049
+92,Paypal,95.29,Arindam_Singh_2K22_EC_049
+93,UPI,283.8,Arindam_Singh_2K22_EC_049
+94,Bank Transfer,492.71,Arindam_Singh_2K22_EC_049
+95,Bank Transfer,363.59,Arindam_Singh_2K22_EC_049
+96,UPI,453.84,Arindam_Singh_2K22_EC_049
+97,Credit Card,161.76,Arindam_Singh_2K22_EC_049
+98,UPI,464.04,Arindam_Singh_2K22_EC_049
+99,Debit Card,82.81,Arindam_Singh_2K22_EC_049
+100,Paypal,156.27,Arindam_Singh_2K22_EC_049
